@@ -257,7 +257,7 @@ $(document).ready(function () {
   //.sw-visual슬라이드 
 
   let swVisualPc = new Swiper('.sw-visual',{
-    // autoplay: true,
+    autoplay: true,
     slidesPerView: 1,
     loop:true,
     loopFillGroupWithBlank: true,
