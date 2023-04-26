@@ -1600,8 +1600,6 @@ scale: 1.1;
 
 }
 
-
-
 /* 브랜드영역 */
 .BRAND{
     width: 100%;
@@ -1619,7 +1617,6 @@ scale: 1.1;
     opacity: 0.1;
     animation: spin2 20s linear infinite;
   
-
 }
 
 @keyframes spin2 {
@@ -1662,15 +1659,13 @@ scale: 1.1;
     overflow: hidden;
     margin: 0 auto;
     margin-left: 150px;
-
-    
-    
+  
 }
+
 .BRAND .inner .container .Vision a{
     display: block;
     overflow: hidden;
 }
-
 
 
 .BRAND .inner .container .Vision img{
@@ -1686,7 +1681,6 @@ scale: 1.1;
 .BRAND .inner .container .Vision img:hover{
     transform: scale(1.2);
 }
-
 
 
 .BRAND .inner .container .Vision h3{
@@ -1713,14 +1707,12 @@ scale: 1.1;
     margin: 0 auto;
     margin-right: 150px;
 
-
 }
 
 .BRAND .inner .container .Mission a{
     display: block;
     overflow: hidden;
 }
-
 
 .BRAND .inner .container .Mission img{
     border-radius: 3px;
@@ -1738,7 +1730,6 @@ scale: 1.1;
     font-weight: 600;
     padding-bottom: 20px;
     padding-top: 23px;
-
 }
 
 .BRAND .inner .container .Mission p{
@@ -1746,10 +1737,7 @@ scale: 1.1;
     font-size: 15px;
     color: #666666;
     line-height: 24px;
-
-
 }
-
 
 .BRAND .inner .container .Mission img:hover{
     transform: scale(1.2);
@@ -1791,14 +1779,11 @@ scale: 1.1;
 
 }
 
-
 .footer .footer-logo .group{
     width: 100%;
     height: 70px;
     display: block;
     position: relative;
-   
-    
    
 }
 .footer .group ul{
@@ -1824,7 +1809,6 @@ scale: 1.1;
 
     
 }
-
 .footer  .group ul::after:hover .list{
     display: block;
 
@@ -1839,8 +1823,6 @@ scale: 1.1;
     transition: .5s;
     
 }
-
-
 
 .footer .group ul a{
     border: 1px  solid #d5d5d5;
@@ -1884,7 +1866,6 @@ scale: 1.1;
     font-family: 'NanumSquareNeo-Variable';
     color: #333;
     font-weight: 600;
-
 
 }
 
