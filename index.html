@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>헉슬리코딩</title>
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper.css">
+    <script src="js/swiper.js"></script>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- jquery-js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <!-- gsap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js" integrity="sha512-tQFq+nb/TSS648SDzWbSj0A67t4I1PFzR0U6Oi/yEYFyUbAIwg74SOCbr7t2X1Rn+iln7sYwfh8y+z7p0gddOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script defer src="js/main2.js"></script>
+</head>
+<body>
+    <!-- 섹션이동메뉴 -->
+<ul class="section-menu">
+    <li><a href="#"><span>MAIN</span></a></li>
+    <li><a href="#"><span>PRODUCTS</span></a></li>
+    <li><a href="javascript:void(0)"><span>PROMOTION</span></a></li>
+    <li><a href="#"><span>COMMUNITY</span></a></li>
+    <li><a href="#"><span>MEDIA</span></a></li>
+    <li><a href="#"><span>BRAND</span></a></li>
+  </ul>
+
+<div class="wrap">
+<!-- header영역 -->
+  <div class="gnbBG"></div>
+    <header class="header">
+      <div class="inner">
+        <h1 class="logo"><a href="#"><img src="images/logo_hder.png" alt=" 로고"></a></h1>
+        <nav class="gnb">
+          <ul class="menu clear">
+            <li><a class="mainmenu" href="#">PRODUCTS</a>
+            <ul class="submenu">
+              <li><a href="#">전체제품</a></li>
+            </ul>
+          </li>
+          <li><a class="mainmenu" href="#">EVENT</a>
+            <ul class="submenu">
+              <li><a href="#">당첨자발표</a></li>
+            </ul>
+          </li>
+          <li><a class="mainmenu" href="#">COMMUNITY</a>
+            <ul class="submenu">
+              <li><a href="#">미디어</a></li>
+            </ul>
+          </li>
+          <li><a class="mainmenu" href="#">BRAND</a>
+            <ul class="submenu">
+              <li><a href="#">브랜드</a></li>
+            </ul>
+          </li>
+          <li><a class="mainmenu" href="#">STORE</a>
+            <ul class="submenu">
+              <li><a href="#">판매처</a></li>
+            </ul>
+          </li>
+          </ul>
+        </nav>
+        <div class="icon clear">
+          <a href="#" title="Search" class="search-bt"><img src="images/search-icon.png" alt="내용검색"></a>
+          <!-- <img src="images/search_close.png" alt=""> -->
+          <a href="#"><img src="images/mypage-icon.png" alt="마이페이지아이콘" title="마이페이지"></a>
+          <a class="icon-03" href="#"><img src="images/shopping-icon.png" alt="장바구니아이콘" title="장바구니"></a>
+        </div>
+      </div>
+    </header>
+
+    
+<!-- 검색영역 -->
+    <div class="search-wrap">
+    <form action="" class="search-form">
+      <input type="text" class="search-form-word" name="" id="" placeholder="검색어를 입력해 주세요.">
+      <input type="button" class="search-form-bt" value="검색">
+    </form>
+    </div>
+
+
+<!-- visual -->
+<!-- 메인배너슬라이드 -->
+  <section class="visual">
+      <!-- <div class="inner"> -->
+          <div class="swiper-container sw-visual">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="banner2-txt01">
+                    <h2>Our First Journey : <br>
+                      The Sahara Desert <br>
+                      in Morocco</h2>
+                    <p>가속화되는 도시사막화 속에서  <br>
+                      현대인들의 피부 고민에 맞는 <br>
+                      최적의  Solution을 찾기 위하여 <br>
+                      척박한 사하라 사막을 향한 <br>
+                      헉슬리의 도전은 시작되었습니다.</p>
+                  </div>
+                   <div class="banner2-txt02">
+                    <h2>Contemporary</h2>
+                    <p>Beauty</p>
+                    <span>Huxley</span>
+                  </div>
+                  <img src="images/main-banner01.png" alt="배너이미지">
+                  <img class="animate__animated animate__fadeInDown" src="images/brand_img_01.png" alt="배너사진">
+                </div>
+                <div class="swiper-slide swiper-slide-02">
+                    <P class="animate__animated animate__fadeInTopRight">HAND REFRESHER<br>BERBER PORTRAIT</P>
+                    <span class="animate__animated animate__fadeInTopRight">헉슬리 핸드 리프레셔 베르베르 포트레이트</span>
+                    <img src="images/main-banner02.png" alt="배너2이미지">
+                </div>
+                <div class="swiper-slide swiper-slide-03">
+                    <img src="images/main-banner03.png" alt="배너3이미지">
+                </div>
+
+            </div>
+            <div class="My-pagination"></div>     
+              <!-- <div class="btn-next">
+                  <span class="material-icons">
+                      chevron_right
+                      </span>
+                      
+              </div>
+              <div class="btn-prev">
+                  <span class="material-icons">
+                      chevron_left
+                      </span>
+              </div> -->
+         </div>
+         <div class="circle">
+          <img src="images/mini-circle.png" alt="타이틀원">
+         </div>
+      <!-- </div> -->
+    </section>
+
+    <!-- about -->
+    <!-- 베스트향수컬렉션 -->
+    <section class="about">
+      <!-- 원형 -->
+      <div class="circle2">
+        <img src="images/big-circle.png" alt="큰원">
+       </div>
+      <div class="inner">
+        <div class="title">
+          <h2>PERFUME <br>
+            COLLECTION</h2>
+            <div class="circle-btn">
+              <div class="mini-circle">
+                <a href="#">
+                  <span>
+                    <img src="images/plus-img.png" alt="플러스버튼">
+                  </span>
+            
+                </a>
+              </div>
+            </div>
+            <a href="#"><p>view more</p></a>
+
+        </div>
+        <!-- 실버향수 -->
+        <div class="circle01">
+          <a href="#"><img src="images/Silver.png" alt="실버향수이미지"></a>
+         </div>
+         <div class="txt">
+          <p>퍼퓸 모로칸 가드너</p>
+          <span>Moroccan Gardener</span> 
+          <i>사막과 대비되는 <br>
+            모로코의 정원에서 <br>
+            영감을 얻은 시그니처 퍼퓸</i>
+         </div>
+         <!-- 핑크향수 -->
+        <div class="circle02">
+          <a href="#"><img src="images/pink.png" alt="핑크향수이미지"></a>
+         </div>
+         <div class="txt02">
+          <p>퍼퓸 베르베르 포트레이트</p>
+          <span>Berber Portrait</span> 
+          <i>모로코의 자유로운<br>
+            베르베르인들의 여정이 <br>
+            담긴 시그니처 퍼퓸 
+           </i>
+         </div>
+
+         <!-- 남색향수 -->
+         <div class="circle03">
+          <a href="#"><img src="images/navy.png" alt="네이비향수"></a>
+         </div>
+         <div class="txt03">
+          <p>퍼퓸 블루 메디나 탠저린</p>
+          <span>Blue Medina Tangerine</span> 
+          <i>모로코의 파란 메디나와 <br>
+            탠저린 나무가 느껴지는<br>
+            시그니처 퍼퓸
+           </i>
+         </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- 프로모션영역 -->
+    <section class="Promotion">
+      <div class="circle2">
+        <img src="images/big-circle.png" alt="큰원">
+       </div>
+      <div class="inner">
+        <div class="title">
+          <h2>Best & New<br class="txt">
+            Promotion</h2>
+            <div class="circle-btn">
+              <div class="mini-circle">
+                <a href="#">
+                  <span>
+                    <img src="images/plus-img.png" alt="플러스버튼">
+                  </span>
+            
+                </a>
+              </div>
+            </div>
+            <a href="#"><p>view more</p></a>
+        </div>
+        <div class="swiper-container sw-item">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#"><img src="images/suncream.png" alt="선크림세트이미지"></a>
+                <p>선 에센스 스테이 선 세이프</p>
+                <span>SUN ESSENCE ; STAY SUN SAFE</span>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="images/lip.png" alt="립스틱이미지"></a>
+                <a href="#"><p>립밤 리브 비하인드</p></a>
+                <a href="#"><span>LIP BALM ; LEAVE BEHIND</span></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="images/gift.png" alt="선물세트이미지"></a>
+                <a href="#"><p>바디 오일 & 괄사 세트</p></a>
+                <a href="#"><span>BODY Oil & GUA SHA SET</span></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="images/soap.png" alt="비누세트이미지"></a>
+                <a href="#"><p>항산화 트리오</p></a>
+                <a href="#"><span>ANTIOXIDANT TRIO</span></a>
+      
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="images/hand.png" alt="핸드워시이미지"></a>
+                <a href="#"><p>핸드 워시 모로칸 가드너</p></a>
+                <a href="#"><span>HAND WASH ; MOROCCAN GARDENER</span></a>
+      
+              </div>
+
+          </div>
+        <div class="swiper-scrollbar"></div> 
+       </div>
+      </div>
+    </section>
+
+
+    <!-- 이벤트영역 -->
+    <section class="event clear">
+      <div class="event-bg01">
+           <a href="#">
+            <img src="images/evevt.png" alt="이벤트이미지">
+             <p>Event</p>
+              <i class="show-txt-02">다양한 진행중인 이벤트룰 즐겨보세요!</i>
+          </a>
+      </div>
+      <div class="event-bg02">
+        <a href="#"><img src="images/showroom.png" alt="쇼룸이미지">
+          <span>Signature  Showroom</span>
+          <i class="show-txt">헉슬리 매장을 쉽고 빠르게 찾아보세요!</i></a>
+      </div>
+      <div class="event-bg03">
+        <a href="#"><img src="images/gift-bg.png" alt="선물이미지">
+          <em>Special Gift</em>
+          <i>특별한 선물을 만나보세요!</i></a> 
+      </div>
+
+      
+   
+  
+     
+    
+    </section>
+    <!-- 미디어영역-->
+    <section class="MEDIA">
+      <div class="inner">
+        <div class="title">
+          <h2>WITH
+            <br class="txt">
+            HUXLEY <br> <p>방송, 매거진에서도 헉슬리를 만나보세요</p></h2>
+           
+            <div class="circle-btn">
+              <div class="mini-circle">
+                <a href="#">
+                  <span>
+                    <img src="images/plus-img.png" alt="플러스버튼">
+                  </span>
+            
+                </a>
+              </div>
+            </div>
+            <a href="#"><p>view more</p></a>
+        </div>
+        <div class="clip">
+          <div class="MEDIA-clip">
+            <iframe src="https://www.youtube.com/embed/qAGSQ5m-DO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+          
+          </div>
+        </div>
+        <div class="circle">
+          <img src="images/mini-circle.png" alt="타이틀원">
+        </div>
+      </div>
+  
+
+      <div class="MEDIA-bg"></div>
+    </section>
+
+
+
+    <!-- 브랜드영역 -->
+  <section class="BRAND">
+      <div class="circle2">
+        <img src="images/big-circle.png" alt="큰원">
+       </div>
+      <div class="inner">
+        <h2>Our Promise</h2>
+        <div class="container clear">
+          <div class="Vision">
+            <a href="#"><img src="images/Vision.png" alt="비전이미지"></a>
+            <h3>Vision</h3>
+            <p>현대인들의 피부 고민에 맞는 최적의 스킨케어 솔루션을 제공하고자 하며, <br>
+            영향력 있게 새로운 트렌드를 만들어가는 컨템포러리 뷰티 브랜드를 지향합니다.</p>
+          </div>
+        </div>
+        <div class="container clear">
+          <div class="Mission">
+            <a href="#"><img src="images/Mission.png" alt="미션이미지"></a>
+            <h3>Mission</h3>
+            <p>헉슬리는 넘쳐나는 정보 속에서 피부 본연의 가치를 최우선으로 생각하는<br> 사람들에게 
+              진실되고 절제된 아름다움을 선사하고자 합니다.</p>
+          </div>
+        </div>
+        </div>
+   </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="inner">
+        <div class="footer-logo">
+          <a href="#"><img src="images/logo_hder.png" alt="로고"></a>
+          <p>Copyrightⓒ2015 Huxley All Rights Reserved.</p>
+          <div class="group">
+            <ul>
+                <a href="#">About</a>
+                <div class="list">
+                  <li><a href="#">Privacy policy</a></li>
+                  <li><a href="#">Agreement</a></li>
+                  <li><a href="#">Guide</a></li>
+              </div>
+            </ul>   
+
+        </div>
+        </div>
+        <div class="footer-menu clear">
+          <ul>
+            <li class="dep-1"><a href="#">customer center</a>
+              <ul class="dep-2">
+                <li><a href="#">고객센터  :  070 - 7123 - 0077</a></li>
+                <li><a href="#">업무시간  :  10:00 - 17:00</a></li>
+                <li><a href="#">점심시간  :  12:00 - 13:30</a></li>
+                <li><a href="#">휴무  :  주말 및 공휴일</a></li>
+                <li><a class="font0" href="#">고객센터  :  070 - 7123 - 0077</a></li>
+                <li><a href="#">국민은행  378801 - 01 -132905</a></li>
+                <li><a href="#">예금주  :  주식회사 헉슬리</a></li>
+              </ul>
+            </li>
+            <li class="dep-1"><a href="#">Company info</a> 
+              <ul class="dep-2">
+                <li><a href="#">대표이사  :  구자풍</a></li>
+                <li><a href="#">상호명  :  주식회사 헉슬리(주)노드메이슨</a></li>
+                <li><a href="#">주소  :  서울시 마포구 토정로 119상수동, 노드메이슨 빌딩</a></li>
+                <li><a href="#">사업자등록번호  :  105-87-91243</a></li>
+                <li><a href="#">통신판매업 신고번호  :  제2013-서울마포-1474호</a></li>
+                <li><a href="#">팩스  :  02-3141-6799</a></li>
+              </ul>
+            </li>
+            <li class="dep-1"><a href="#">shop menu</a> 
+              <ul class="dep-2">
+                <li><a href="#">Notice</a></li>
+                <li><a href="#">My page</a></li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">FAQ</a></li>
+                
+              </ul>
+            </li>
+            <li class="dep-1"><a href="#">Follow us</a> 
+              <ul class="dep-2">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Smart store</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+
+
+
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+
+
